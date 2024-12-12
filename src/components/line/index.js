@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 import { View, Animated } from 'react-native';
 
-import styles from './styles';
+import styles from './styles.js';
 
 const lineTypes = PropTypes.oneOf(['solid', 'dotted', 'dashed', 'none']);
 

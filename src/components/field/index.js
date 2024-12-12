@@ -13,7 +13,7 @@ import Affix from '../affix';
 import Helper from '../helper';
 import Counter from '../counter';
 
-import styles from './styles';
+import styles from './styles.js';
 
 function startAnimation(animation, options, callback) {
   Animated.timing(animation, options).start(callback);
